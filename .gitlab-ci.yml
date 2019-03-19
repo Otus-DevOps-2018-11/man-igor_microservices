@@ -17,7 +17,7 @@ before_script:
 build_job:
   stage: build
   script:
-    - cd src/
+    - cd ../src/
     - docker build -t post:1.0 ./post-py
     - docker build -t comment:1.0 ./comment
     - docker build -t ui:1.0 ./ui
