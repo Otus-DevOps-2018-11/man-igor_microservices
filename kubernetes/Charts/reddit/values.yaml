@@ -1,0 +1,20 @@
+omment:
+  image:
+    repository: manvigor/comment
+    tag: latest
+  service:
+    externalPort: 9292
+
+post:
+  image:
+    repository: manvigor/post
+    tag: latest
+    service:
+      externalPort: 5000
+
+ui:
+  image:
+    repository: manvigor/ui
+    tag: latest
+    service:
+      externalPort: 9292
